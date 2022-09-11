@@ -10,6 +10,7 @@ export type CreateCommentDTO = {
   data: {
     body: string;
     discussionId: string;
+    authorFirstName: string | undefined;
   };
 };
 

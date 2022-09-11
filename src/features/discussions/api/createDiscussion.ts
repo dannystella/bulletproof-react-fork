@@ -10,6 +10,7 @@ export type CreateDiscussionDTO = {
   data: {
     title: string;
     body: string;
+    authorFirstName: string | undefined;
   };
 };
 

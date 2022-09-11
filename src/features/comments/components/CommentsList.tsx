@@ -52,7 +52,7 @@ export const CommentsList = ({ discussionId }: CommentsListProps) => {
               <DeleteComment discussionId={discussionId} id={comment.id} />
             </div>
           </Authorization>
-
+          <h2>{comment?.authorFirstName}</h2>
           <MDPreview value={comment.body} />
         </li>
       ))}
