@@ -31,6 +31,7 @@ const models = {
     authorId: String,
     discussionId: String,
     createdAt: Number,
+    authorFirstName: String,
   },
 };
 
